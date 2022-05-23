@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+*{
+	padding: 0;
+	margin:0;
+}
+.begin{
+	width:100%;
+	height: 150px;
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(photo.png);
+	background-size: cover;
+	background-position: center;
+}
+.second{
+	width: 85%;
+	margin:auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width:140px;
+	cursor: pointer;
+}
+.second ul li{
+	margin: 0 20px;
+	display: inline-block;
+	list-style: none;
+	position: relative
+}
+.second ul li a{
+	font-family:"Montserrat", sans-serif;
+	color: white;
+	text-decoration-line: none;
+	
+}
+.second ul li::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background: red ;
+	position:absolute;
+	left: 0;
+	bottom:-10px;
+	transition:0.5s;
+}
+.second ul li:hover::after{
+	width:100%;
+ }
+p , h3{
+	font-size: 1.25rem !important;
+	 margin-bottom: 1.5rem !important;
+	 font-family: serif;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
+}
+
+.page-content {
+	margin-top: 4%;
+	position: absolute;
+}
+
+	
+.page-content  h2 {
+	font-size: 30px;
+	margin-left:95px;  
+}
+.page-content p {
+	line-height: 30px;
+	color: #818181;
+}
+.page-content .presentation-image {
+	margin-top: 10%;
+	margin-left:50px;
+
+}
+
+button{
+	width: 200px;
+	margin-left: 500px;
+	margin-top: 100px;
+	padding: 15px 0;
+	text-align: center;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid red;
+	color: white;
+	cursor: pointer;
+	overflow: hidden;
+	position:relative;
+	background-color: red;
+}
+.span{
+	background: red;
+	width: 100%;
+	height: 100%;
+	border-radius: red;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	z-index:-1;
+	transition: 0.5s;
+
+}
+button:hover span{
+	width:100%;
+}
+button:hover{
+	border:none;
+}
+button a{
+	text-decoration-line: none;
+	text-decoration-style: none;
+	color: white;
+}
+
+.page-content header {
+		margin-top: 80%;
+		max-width: 100%;
+}
+
+.info{
+	margin-left:80px;
+	margin-top: 5%;
+	max-width: 80%;
+}
+.info h3{
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color:  #818181;
+
+}
+.info p{
+	line-height: 30px;
+	color: black;
+
+}
+ .xy{
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
